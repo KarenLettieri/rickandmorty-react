@@ -1,7 +1,7 @@
 {
 	"name": "rick-and-morty-api-react",
 	"version": "1.0.0",
-	"description": "Practicando React con una API y probando GitHub actions",
+	"description": "Practicando React con una API",
 	"main": "index.js",
 	"scripts": {
 		"build": "webpack --mode production",
@@ -11,7 +11,7 @@
 		"react",
 		"webpack"
 	],
-	"author": "Ricardo Alf",
+	"author": "Karen Lettieri",
 	"license": "ISC",
 	"dependencies": {
 		"bootstrap": "^5.1.3",
