@@ -1,11 +1,14 @@
 {
+	"homepage": "https://karenlettieri.github.io/rickandmorty-react/",
 	"name": "rick-and-morty-api-react",
 	"version": "1.0.0",
 	"description": "Practicando React con una API",
 	"main": "index.js",
 	"scripts": {
 		"build": "webpack --mode production",
-		"start": "webpack-dev-server -d --open --port 3000"
+		"start": "webpack-dev-server -d --open --port 3000",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"keywords": [
 		"react",
@@ -27,6 +30,7 @@
 		"clean-webpack-plugin": "^3.0.0",
 		"css-loader": "^4.2.1",
 		"file-loader": "^6.0.0",
+		"gh-pages": "^3.2.3", 
 		"html-loader": "^1.1.0",
 		"html-webpack-plugin": "^4.3.0",
 		"mini-css-extract-plugin": "^0.10.0",
