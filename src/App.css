@@ -163,7 +163,7 @@ body {
 }
 
 .imagen_logo {
-	margin-left: 30px;
+	margin-left: auto;
 }
 
 
@@ -183,6 +183,6 @@ body {
 		grid-template-columns: repeat(3, 1fr);
 	}
 	.imagen_logo {
-		margin-left: 500px;
+		margin-left: 450px;
 	}
 }
