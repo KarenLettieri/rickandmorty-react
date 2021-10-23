@@ -163,7 +163,7 @@ body {
 }
 
 .imagen_logo {
-	margin-left: 500px;
+	margin-left: 30px;
 }
 
 
@@ -172,10 +172,17 @@ body {
 	.characters {
 		grid-template-columns: repeat(1, 1fr);
 	}
+
+	.imagen_logo {
+		margin-left: 0;
+	}
 }
 
 @media screen and (min-width: 1024px) {
 	.characters {
 		grid-template-columns: repeat(3, 1fr);
+	}
+	.imagen_logo {
+		margin-left: 500px;
 	}
 }
